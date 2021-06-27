@@ -72,7 +72,7 @@ if(isset($_POST['submit']))
             <div class="row btn-group">
                 <div class="col">
                     <label for="result">Result</label>
-                    <input type="text" name="result" id="result" value="<?php echo $result ?>">
+                    <input type="text" name="result" id="result" value="<?php echo $result ?>" readonly>
                 </div>
             </div>
             <div class="row btn-group">
